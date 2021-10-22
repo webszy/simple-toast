@@ -8,16 +8,16 @@ left: 0;
 }
 
 #simple_toast{
-width: 80%;
+width: fit-content;
+max-width:80%;
 margin-left: auto;
 margin-right: auto;
-background-color: rgb(48, 52, 55);
+background-color: rgba(48, 52, 55,.95);
 color: rgb(245, 245, 245);
 font-size: 13px;
-padding: 5px;
-border-radius: 2px;
--webkit-border-radius: 2px;
-opacity: 0.95;
+padding: 5px 10px;
+border-radius: 4px;
+-webkit-border-radius: 4px;
 -webkit-box-shadow:  1px 2px 2px 1px rgba(34, 34, 34, 1);
 box-shadow:  1px 2px 2px 1px rgba(34, 34, 34, 1);
 text-align: center;
