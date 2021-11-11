@@ -128,6 +128,7 @@ export default class SimpleToast{
         } else {
             const s = document.createElement('style')
             s.innerHTML = style
+            s.id ='simple_toast_css'
             document.getElementsByTagName('head')[0].appendChild(s)
             setTimeout(this.show.bind(this),50)
         }
